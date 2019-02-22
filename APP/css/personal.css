@@ -1,0 +1,333 @@
+/*头部开始*/
+.container{
+    width: 100%;
+    height: 100%;
+    min-height: 1px;
+    margin: 0 auto;
+}
+.head-big{
+    width: 7.5rem;
+    height: 2.02rem;
+    margin: 0 auto;
+}
+.status{
+    width: 7.5rem;
+    height: 0.4rem;
+    background:#1ec5d9;
+    margin: 0 auto;
+}
+.status img{
+    width: 7.5rem;
+    height: 0.4rem;
+}
+.header{
+    width:100%;
+    height:1.98rem;
+    background: #1ec5d9;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.header-title{
+    width: 2.5rem;
+    height: 0.5rem;
+    font-size: 0.38rem;
+    text-align: center;
+    line-height: 0.5rem;
+    color: #fcf8f8;
+    float: left;
+    margin: 0.38rem auto;
+}
+.setting{
+    width: 0.37rem;
+    height: 0.37rem;
+    text-align: center;
+    line-height: 0.38rem;
+    background-color: #ffffff;
+    float: left;
+    border-radius: 50%;
+    margin-left: 0.24rem;
+    margin-top: 0.38rem;
+
+}
+.setting i{
+    font-size: 0.3rem;
+    color:#1ec5d9;
+}
+.notes{
+    width: 0.37rem;
+    height: 0.37rem;
+    text-align: center;
+    line-height: 0.38rem;
+    background-color: #ffffff;
+    float: right;
+    border-radius: 50%;
+    margin-right: 0.24rem;
+    margin-top: 0.38rem;
+
+}
+.notes i{
+    font-size: 0.3rem;
+    color:#1ec5d9;
+}
+.info{
+    width: 7.02rem;
+    height: 1.54rem;
+    background-color: #ffffff;
+    box-shadow: 0.03rem 0.04rem 0.15rem 0rem
+    rgba(0, 0, 0, 0.49);
+    border-radius: 0.1rem;
+    margin: -0.52rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+.head{
+    width: 1rem;
+    height: 1rem;
+    background-color: #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 0 15px #1ec5d9;
+    margin-left: 0.24rem;
+    margin-top: 0.27rem;
+}
+.head img{
+    width: 1rem;
+    height: 1rem;
+}
+.info-right{
+    margin-left: 0.24rem;
+    width: 5.35rem;
+    height: 100%;
+}
+.head-nick{
+    width: 100%;
+    height: 0.23rem;
+    margin-top: 0.18rem;
+    display: flex;
+    justify-content: flex-start;
+}
+.nickname{
+    width: 2.3rem;
+    height: 0.3rem;
+    font-size: 0.24rem;
+    color: #030303;
+    opacity: 0.6;
+
+}
+.member{
+    width: 1.71rem;
+    height: 0.27rem;
+    font-size: 0.16rem;
+    color: #030303;
+    opacity: 0.6;
+    margin-left: 1.08rem;
+}
+.member i{
+    font-size: 0.2rem;
+    color: #ffb20c;
+    opacity: 0.98;
+}
+.write{
+    width: 3.27rem;
+    height: 0.24rem;
+    font-size: 0.24rem;
+    color: #030303;
+    opacity: 0.6;
+    margin-top: 0.18rem;
+}
+.phone{
+    width: 100%;
+    height: 0.14rem;
+    display: flex;
+    margin-top: 0.18rem;
+}
+.phone i{
+    width: 0.12rem;
+    height: 0.22rem;
+}
+.number{
+    width: 1.41rem;
+    height: 0.14rem;
+    font-size: 0.18rem;
+    color: #010101;
+    opacity: 0.6;
+    margin-left: 0.2rem;
+}
+.wallet{
+    width:7.5rem;
+    height: 0.56rem;
+    margin: 1.2rem auto 0.24rem;
+    display: flex;
+    justify-content: space-between;
+}
+.purse{
+    width: 0.9rem;
+    height: 0.56rem;
+    display: flex;
+    flex-wrap:wrap;
+    margin-left: 0.95rem;
+}
+.purse-num{
+    width: 0.8rem;
+    height: 0.21rem;
+    font-size: 0.24rem;
+    color: #1ec5d9;
+}
+.purse-item{
+    width: 0.6rem;
+    height: 0.21rem;
+    font-size: 0.22rem;
+    color: #000000;
+    opacity: 0.6;
+    text-align: center;
+}
+.red-num{
+    width: 0.8rem;
+    height: 0.21rem;
+    font-size: 0.24rem;
+    color: #1ec5d9;
+    margin-left: 0.1rem;
+}
+.gold{
+    margin-right: 0.95rem;
+}
+.line{
+    width: 0.04rem;
+    height: 0.44rem;
+    border: solid 0.02rem #000000;
+    opacity: 0.1;
+    margin-top: 0.1rem;
+    margin-left: 0.6rem;
+}
+/*头部开始*/
+/*中间部分开始*/
+.middle{
+    width: 7.5rem;
+    height: 7.6rem;
+    background-color: #eeeeee;
+    margin: 0.48rem auto;
+    position: relative;
+}
+.sign{
+    width: 7.02rem;
+    height: 0.88rem;
+    background: #ffffff;
+    position: absolute;
+    top: 24px;
+    left: 0.24rem;
+    border-radius: 0.1rem;
+    display: flex;
+}
+.icon{
+    width: 0.58rem;
+    height: 0.58rem;
+    margin: 0.15rem 0.24rem;
+}
+.icon img{
+    width: 0.58rem;
+    height: 0.58rem;
+}
+.address-title{
+    width: 1.5rem;
+    height: 0.23rem;
+    font-size: 0.24rem;
+    color: #030303;
+    opacity: 0.6;
+    line-height: 0.88rem;
+}
+.address{
+    width: 7.02rem;
+    height: 0.88rem;
+    background: #ffffff;
+    position: absolute;
+    top:96px;
+    left: 0.24rem;
+    border-radius: 0.1rem;
+    display: flex;
+}
+.customer{
+    width: 7.02rem;
+    height: 0.88rem;
+    background: #ffffff;
+    position: absolute;
+    top:164px;
+    left: 0.24rem;
+    border-radius: 0.1rem;
+    display: flex;
+}
+.cooperate{
+    width: 7.02rem;
+    height: 0.88rem;
+    background: #ffffff;
+    position: absolute;
+    top:232px;
+    left: 0.24rem;
+    border-radius: 0.1rem;
+    display: flex;
+}
+.add-num{
+    width: 0.72rem;
+    height: 0.31rem;
+    background-color: #f9cd36;
+    border-radius: 0.21rem;
+    margin-top: 0.285rem;
+    margin-left: 3.50rem;
+    font-size: 0.26rem;
+    line-height: 0.31rem;
+    text-align: center;
+    color: #fdffff;
+}
+.customer-num{
+    width: 0.72rem;
+    height: 0.31rem;
+    background-color: #f9cd36;
+    border-radius: 0.21rem;
+    margin-top: 0.285rem;
+    margin-left: 3.50rem;
+    line-height: 0.31rem;
+    text-align: center;
+
+}
+.customer-num i{
+    font-size: 0.24rem;
+    color: #fdffff;
+}
+/*中间部分结束*/
+/*底部标签栏开始*/
+.footer{
+    width: 7.5rem;
+    height: 0.98rem;
+    margin: 0 auto;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+}
+.footer-nav{
+    width: 5.85rem;
+    height: 0.75rem;
+    margin:0.17rem auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.footer-img{
+    width: 0.55rem;
+    height: 0.75rem;
+}
+.footer-img img{
+    width: 0.45rem;
+    height: 0.43rem;
+}
+.footer-title{
+    width: 1.2rem;
+    height: 0.19rem;
+    font-size: 0.2rem;
+    letter-spacing: 0.02rem;
+    color: #040404;
+    opacity: 0.6;
+}
+.footer-img p.active{
+    color: #1ec5d9;
+}
+/*底部标签栏结束*/

@@ -1,0 +1,583 @@
+/*导航栏部分开始*/
+.container{
+    width: 7.02rem;
+    height: 100%;
+    min-height: 1px;
+    margin: -0.22rem auto;
+}
+.status{
+    width: 7.5rem;
+    height: 0.4rem;
+    margin: 0 auto;
+}
+.status img{
+    width: 7.5rem;
+    height: 0.4rem;
+}
+#header{
+    width:7.5rem;
+    height: 1.33rem;
+    background: #1ec5d9;
+    margin: 0 auto;
+}
+.top-bar{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.search-box{
+    width: 4.26rem;
+    height: 0.34rem;
+    background: #fff;
+    border-radius: 0.5rem;
+    margin-left: 1.38rem;
+}
+.scan-box{
+    width: 0.34rem;
+    height: 0.34rem;
+    background: #fff;
+    border-radius: 50%;
+    margin-left: 1.04rem;
+}
+.search{
+    width:0.17rem;
+    height:0.17rem;
+    margin-top: 0.034rem;
+    margin-left: 0.14rem;
+    margin-right: 0.16rem;
+    float: left;
+    color:rgba(0,0,0,0.6);
+}
+.search-box i{
+    font-size: 12px;
+}
+.input{
+    width: 2.8rem;
+    height: 0.25rem;
+    margin-top: 0.04rem;
+    float: left;
+    border: none;
+    font-size:0.018rem;
+
+}
+.camera{
+    width: 0.25rem;
+    height: 0.19rem;
+    margin-top: 0.06rem;
+    margin-left: 0.58rem;
+    color:rgba(0,0,0,0.6);
+    float:left;
+}
+.scan{
+    width:0.18rem;
+    height:0.18rem;
+    margin: 0.06rem;
+    color:rgba(0,0,0,0.6);
+    float:left;
+}
+.scan-box i{
+    font-size: 12px;
+}
+/*导航栏部分结束*/
+/*轮播图部分开始*/
+.banner{
+    width: 7.5rem;
+    height: 3.4rem;
+    background: #fff;
+    box-shadow: 0 5px 16px rgba(30,197,217,0.4);
+    margin: 0 auto;
+    position: relative;
+}
+.image-box{
+    width:7.02rem;
+    height:3rem;
+    background: #1ec5d9;
+    margin:20px auto;
+    position: relative;
+}
+.banner-item{
+    width:7.02rem;
+    height:3rem;
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.banner-item img{
+    display: block;
+    width:7.02rem;
+    height:3rem;
+}
+.image-box li.active{
+    z-index: 1;
+}
+.pager-box{
+    width: 1.02rem;
+    height: 0.15rem;
+    position: absolute;
+    left:0.48rem;
+    bottom: 0.48rem;
+    display: flex;
+    justify-content: space-between;
+    z-index: 99;
+}
+.pager-box li{
+    width: 0.15rem;
+    height: 0.15rem;
+    border-radius: 50%;
+    background: #fff;
+}
+.pager-box li.active{
+    background:#1ec5d9;
+}
+/*轮播图部分结束*/
+/*分类部分开始*/
+.category{
+    width: 6.41rem;
+    height: 3.43rem;
+    margin: 0.6rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.category-box{
+    display: block;
+    width: 1.19rem;
+    height: 1.18rem;
+    border-radius: 50%;
+    margin-left: 0.24rem;
+}
+.category-box img{
+    width: 100%;
+    height: 100%;
+}
+.category-box p{
+    margin-top: 0.08rem;
+    text-align: center;
+    height: 0.27rem;
+    line-height: 0.27rem;
+    font-size: 0.27rem;
+    color: #010101;
+}
+/*分类部分结束*/
+/*限时抢购开始*/
+.flash{
+    width: 7.02rem;
+    height: 1.43rem;
+    margin:0.6rem auto;
+    /*background: red;*/
+}
+.flash-box{
+    width: 100%;
+    height: 0.27rem;
+    text-align: center;
+    position: relative;
+}
+.dot-box{
+    width: 0.32rem;
+    height: 0.12rem;
+    position: absolute;
+    left: 2rem;
+    top: 0.045rem;
+    display:flex;
+    justify-content: space-between;
+
+}
+.dot-box1{
+    width: 0.32rem;
+    height: 0.12rem;
+    position: absolute;
+    right: 2.3rem;
+    top: 0.045rem;
+    display:flex;
+    justify-content: space-between;
+
+}
+.dot{
+    margin-right: 0.08rem;
+}
+
+.item{
+    display: block;
+    height: 0.27rem;
+    line-height: 0.27rem;
+    font-size: 0.27rem;
+    color: #000;
+    text-align: center;
+}
+.flash-box i{
+    /*position: absolute;*/
+    /*top:0.04rem;*/
+    font-size: 16px;
+    color:#1ec5d9 ;
+}
+.flash-text{
+    width: 5.52rem;
+    height: 0.23rem;
+    text-align: center;
+    margin-top: 0.2rem;
+    margin-left: 0.80rem;
+    display:flex;
+    justify-content: space-between;
+}
+.item1{
+    /*width:0.7rem;*/
+    color: #000000;
+    opacity: 0.6;
+    font-size: 0.22rem;
+    height: 0.24rem;
+}
+.item2{
+    /*width:0.94rem;*/
+    color: #1ec5d9;
+    opacity: 0.6;
+    font-size: 0.22rem;
+    height: 0.24rem;
+    /*margin-left: 1.55rem;*/
+    /*margin-right: 1.55rem;*/
+}
+.item3{
+    /*width:0.58rem;*/
+    color: #1ec5d9;
+    opacity: 0.6;
+    font-size: 0.24rem;
+    height: 0.24rem;
+}
+.flash-time{
+    width: 2.18rem;
+    height: 0.42rem;
+    text-align: center;
+    margin: 0.3rem auto;
+    display: flex;
+    justify-content: flex-start;
+}
+.time-item{
+    width: 0.29rem;
+    height: 0.42rem;
+    background: #c1f4f8;
+    margin-right: 0.05rem;
+    line-height: 0.42rem;
+    font-size:0.24rem;
+    color: #4ee7f5;
+}
+.flash-time li.active{
+    margin-right: 0.11rem;
+}
+.flash-time li.active1{
+    margin-left: 0.11rem;
+}
+.flash-img{
+    margin-top: 0.6rem;
+    width:7.02rem;
+    height: 2.21rem;
+    position: relative;
+
+}
+.img-item{
+    width: 3.2rem;
+    height: 2.21rem;
+    position:absolute;
+    left:0;
+}
+.img-item img{
+    width: 3.2rem;
+    height: 100%;
+}
+.img-item1{
+    width: 3.2rem;
+    height: 2.21rem;
+    position: absolute;
+    right: 0;
+}
+.img-item1 img{
+    width: 3.2rem;
+    height: 100%;
+}
+.fruits{
+    position: absolute;
+    top:10px;
+    left:10px;
+    color: #fff;
+    font-size: 20px;
+}
+.fruits1{
+    position: absolute;
+    top:40px;
+    left:20px;
+    color: #fff;
+    font-size: 12px;
+}
+.dot1{
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    top:46px;
+    left:10px;
+}
+.dot2{
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    top:46px;
+    left:74px;
+}
+.more{
+    width: 0.9rem;
+    height: 0.4rem;
+    border-radius: 0.21rem;
+    background: #ff8a00;
+    position: absolute;
+    bottom:30px;
+    left:15px;
+    font-size: 12px;
+    line-height: 0.4rem;
+    text-align: center;
+    color: #fff;
+}
+/*限时抢购结束*/
+/*推荐商家开始*/
+.recommend{
+    width: 7.5rem;
+    height: 12rem;
+    background-color: #eeeeee;
+    margin: 3rem auto 0;
+}
+.recommend-title{
+    width: 7.02rem;
+    height: 0.27rem;
+    margin: 0.24rem auto;
+    /*background: red;*/
+    text-align: center;
+}
+.title{
+    width: 1.22rem;
+    height: 0.27rem;
+    font-size: 0.28rem;
+    letter-spacing: 0.04rem;
+    color: #040404;
+}
+.line{
+    display:inline-block;
+    width: 0.47rem;
+    height: 0.01rem;
+    border: solid 0.01rem #000000;
+    margin-top: 0.36rem;
+}
+.recommend-nav{
+    width:7.02rem;
+    height: 0.37rem;
+    /*background: #2196f3;*/
+    margin: 0.33rem auto;
+}
+.nav-item{
+    width:6.54rem;
+    height: 100%;
+    margin-left: 0.24rem;
+    /*background: #ff6700;*/
+    display: flex;
+    justify-content: space-between;
+}
+.nav-list{
+    width: 1.46rem;
+    height: 0.37rem;
+    line-height: 0.34rem;
+    text-align: center;
+    font-size: 0.22rem;
+    letter-spacing: 0.03rem;
+    border-radius: 0.21rem;
+    border: solid 1px #000000;
+    color: #8c8c8c;
+
+}
+.nav-item li.active{
+    color: #1ec5d9;
+}
+li.nav-list i{
+    font-size: 14px;
+}
+.recommend-item{
+    width: 7.26rem;
+    height: 1.73rem;
+    background: #fff;
+    margin-left: 0.24rem;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 0.2rem;
+}
+.recommend-img{
+    width: 1.53rem;
+    height: 1.02rem;
+    margin: 0.27rem 0.12rem;
+}
+.recommend-img img{
+    width: 100%;
+    height: 100%;
+}
+.scale{
+    width: 5.48rem;
+    height: 1.63rem;
+    margin-left: 0.13rem;
+    position: relative;
+}
+.scale-name{
+    width: 4rem;
+    height: 0.26rem;
+    font-size: 0.28rem;
+    letter-spacing: 0.02rem;
+    color: #050505;
+    margin-top: 0.10rem;
+}
+.star{
+    position: absolute;
+    top:9px;
+    right: 20px;
+    width: 1.12rem;
+    height: 0.18rem;
+    display: flex;
+    justify-content: space-between;
+}
+.star img{
+    width: 0.2rem;
+    height: 100%;
+}
+.underline{
+    width: 1.8rem;
+    height: 0.06rem;
+    border: dotted 0.03rem #c0c0c0;
+    margin-top: 0.1rem;
+}
+.comment{
+    width: 4.44rem;
+    height: 0.25rem;
+    font-size: 0.24rem;
+    letter-spacing: 0.02rem;
+    color: #5a5959;
+    margin-top: 0.1rem;
+}
+.price{
+    width: 5.24rem;
+    height: 0.27rem;
+    font-size: 0.16rem;
+    letter-spacing: 0.01rem;
+    color: #050505;
+    opacity: 0.9;
+    margin-top: 0.1rem;
+    display: flex;
+    position: relative;
+}
+.price p.delivery{
+    position: absolute;
+    left:90px;
+}
+.price p.scale-time{
+    position: absolute;
+    right:10px;
+    color: #0fe89e;
+}
+.vip{
+    width: 0.68rem;
+    height: 0.27rem;
+    border: solid 0.01rem #f13667;
+    line-height: 0.25rem;
+    text-align: center;
+    font-size: 0.18rem;
+    border-radius: 0.21rem;
+    letter-spacing: 0.01rem;
+    color: #f97661;
+}
+.recommend-new{
+    width: 5.14rem;
+    height: 0.27rem;
+    display: flex;
+    margin-top: 0.1rem;
+}
+.reduce{
+    width: 4.46rem;
+    height: 0.27rem;
+    font-size: 0.12rem;
+    letter-spacing: 0.01rem;
+    color: #050505;
+    opacity: 0.8;
+    margin-left: 0.1rem;
+}
+.new{
+    width: 0.68rem;
+    height: 0.27rem;
+    border: solid 0.01rem #f13667;
+    line-height: 0.25rem;
+    text-align: center;
+    font-size: 0.18rem;
+    border-radius: 0.21rem;
+    letter-spacing: 0.01rem;
+    color: #f97661;
+}
+
+.discount{
+    width: 4.23rem;
+    height: 0.27rem;
+    font-size: 0.12rem;
+    letter-spacing: 0.01rem;
+    color: #040404;
+    opacity: 0.6;
+    margin-left: 0.1rem;
+    margin-top: -0.02rem;
+}
+.recommend-vip{
+    width: 100%;
+    height: 0.27rem;
+    display: flex;
+    position: relative;
+    margin-top: 0.1rem;
+}
+.recommend-vip p.distance{
+    position: absolute;
+    right:20px;
+    color: #040404;
+    opacity: 0.9;
+}
+/*推荐商家结束*/
+/*底部标签栏开始*/
+.footer{
+    width: 7.5rem;
+    height: 0.98rem;
+    background: #fff;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    right: 0;
+}
+.footer-nav{
+    width: 5.85rem;
+    height: 0.75rem;
+    margin:0.17rem auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.footer-img{
+    width: 0.55rem;
+    height: 0.75rem;
+}
+.footer-img img{
+    width: 0.45rem;
+    height: 0.43rem;
+}
+.footer-title{
+    width: 0.8rem;
+    height: 0.19rem;
+    font-size: 0.2rem;
+    letter-spacing: 0.02rem;
+    color: #040404;
+    opacity: 0.6;
+}
+.footer-img p.active{
+    color: #1ec5d9;
+}
+/*底部标签栏结束*/
